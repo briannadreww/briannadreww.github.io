@@ -1,0 +1,131 @@
+body {
+    background-color: lightskyblue;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    position: relative;
+    background: url('UNCbanner.jpeg') center top no-repeat;
+    background-size: cover;
+    padding: 70px 0 30px;
+    color: lightskyblue;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: lightskyblue;
+}
+
+#about,
+#restaurants,
+#hotels,
+#uncInfo,
+#Ncflag,
+#planetarium,
+#athleticGames {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: white;
+    margin-bottom: 20px;
+}
+#NCflag{
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#about img,
+#NCflag img,
+#restaurants img,
+#hotels img,
+#uncInfo img,
+#planetarium img,
+#athleticGames img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+#videoSection {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#videoSection iframe {
+    width: 100%;
+    height: 315px; /* Adjust as needed */
+}
+
+
+#about {
+    position: absolute;
+    top: 275px;
+    left: 50px;
+}
+
+#restaurants {
+    position: absolute;
+    top: 900px;
+    left: 675px;
+}
+
+#hotels {
+    position: absolute;
+    top: 490px;
+    left: 50px;
+}
+
+#uncInfo {
+    position: absolute;
+    top: 275px;
+    left: 675px;
+}
+
+#planetarium {
+    position: absolute;
+    top: 275px;
+    right: 50px;
+}
+
+#athleticGames {
+    position: absolute;
+    top: 750px;
+    right: 50px;
+}
+#videoSection {
+    position: absolute;
+    top: 450px;
+    left: 675px;
+}
+#NCflag {
+    position: absolute;
+    top: 900px;
+    left: 50px;
+}
+#localRestaurants,
+#hotelOptions,
+#moreheadPlanetarium,
+#uncAthleticGames {
+    width: 300px;
+}
+
+footer {
+    position: absolute;
+    top: 1250px;
+    width: 100%;
+    border-top: 2px solid #000; 
+    padding: 10px;
+    background-color: white; 
+}
+
+
